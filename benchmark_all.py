@@ -191,7 +191,7 @@ def benchmark_lsh_forest_on_M(candidate_size_range, k, l, num_rep, num_queries, 
 num_rep = 100
 m_range = [2**i for i in range(1,8)]
 M_range = range(5, 50, 5)
-k_lsh = 11
+k_lsh = 10
 k_tree = 26
 l = 5
 num_queries = 1

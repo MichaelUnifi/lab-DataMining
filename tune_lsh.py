@@ -111,7 +111,7 @@ def test_random_search(label_lengths, results_per_query, c, l, num_rep, num_quer
 
 c = 5
 l = 5
-num_rep = 200
+num_rep = 100
 num_queries = 5
 results_per_query = 5 #top m queries
 max_k = 26
